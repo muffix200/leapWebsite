@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root,html,body{
+  height: 100%;
+}
+.container {
+width: 100%;
+height: 100%;
+}
+.navbar{
+height: 60px;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+padding: 10px;
+max-width: 1370px;
+margin: 0 auto;
+}
+.navbar-list-text{
+  font-size: 16px;
+  margin-right: 20px;
+  color: #818181;
+}
