@@ -12,9 +12,9 @@ function LightDarkButton() {
       title="Toggle color scheme"
     >
       {dark ? (
-        <IconSun color="#fff" size="1.5rem" />
+        <IconSun color="#fff" size="1.4rem" />
       ) : (
-        <IconMoonStars color="#000" size="1.5rem" />
+        <IconMoonStars color="#000" size="1.4rem" />
       )}
     </ActionIcon>
   );
