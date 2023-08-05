@@ -3,13 +3,14 @@ import {
   ColorSchemeProvider,
   ColorScheme,
   Divider,
-  ScrollArea,
+  Paper,
 } from "@mantine/core";
 import { useHotkeys, useLocalStorage } from "@mantine/hooks";
 import Navbar from "./components/ui/Navbar";
 import MainScreen from "./components/ui/MainScreen";
 import CourseSection from "./components/ui/CourseSection";
 import { FeedbackSection } from "./components/ui/FeedbackSection";
+import Footer from "./components/ui/Footer";
 
 export default function App() {
   const [colorScheme, setColorScheme] = useLocalStorage<ColorScheme>({
@@ -50,12 +51,11 @@ export default function App() {
           },
         }}
       >
-        <ScrollArea
-          type="scroll"
+        <Paper
           sx={(theme) => ({
-            width: "100%",
-            height: "100%",
             borderRadius: 0,
+            width: "100%",
+            minHeight: "100%",
             backgroundColor: theme.colorScheme === "dark" ? "#09090B" : "#fff",
           })}
         >
@@ -64,7 +64,8 @@ export default function App() {
           <Divider labelPosition="center" />
           <CourseSection />
           <FeedbackSection />
-        </ScrollArea>
+          <Footer />
+        </Paper>
       </MantineProvider>
     </ColorSchemeProvider>
   );

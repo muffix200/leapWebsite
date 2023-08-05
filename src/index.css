@@ -5,8 +5,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 #root,html,body{
+  width: 100%;
   height: 100%;
 }
 .container {
@@ -35,6 +37,7 @@ margin: 0 auto;
   font-size: 16px;
   margin-right: 20px;
   color: #818181;
+  cursor: pointer;
 }
 .mobile-desktop-icons{
   display: none;
@@ -57,15 +60,19 @@ max-width: 700px;
 }
 .feedbackSection{
   width: 100%;
-  padding: 40px 30px;
+  padding: 10px 30px 40px 30px;
   max-width: 1400px;
+  margin: 0 auto;
+}
+.footer-section{
+  padding: 15px;
+  /* max-width: 1400px; */
   margin: 0 auto;
 }
 .mainScreen-text{
   font-size: 45px;
   font-weight: 900;
    font-family: "Montserrat";
-  /* border: 1px solid green;  */
 }
 
 .mainScreen-subText{
@@ -74,7 +81,6 @@ max-width: 700px;
   font-family: "Montserrat";
   font-weight: 400;
   color: #818181; 
-  /* border: 1px solid green; */
 }
 .ads{
   padding: 10px;
@@ -88,13 +94,16 @@ max-width: 700px;
 .slide-box-wrapper{
   width: 100%;
   height: 100%;
-  border:1px solid #000;
   border-radius: 5px;
 }
 .corousel-wrapper{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.section-text{
+ font-size: 30px;
 }
 
 @media (max-width:850px) {
@@ -109,5 +118,30 @@ max-width: 700px;
    }
    .navbar-desktop-icons{
     display: none;
+   }
+   @media (max-width:660px) {
+    .mainScreen{
+      padding: 30px 20px;
+      max-width: 1400px;
+      margin: 30px auto;
+    }
+    .courseSection{
+      padding: 30px 20px;
+    }
+    .feedbackSection{
+      padding: 10px 20px 30px 20px;
+    }
+    .mainScreen-text{
+      font-size: 30px;
+    }
+    .mainScreen-subText{
+      font-size: 16px;
+    }
+    .section-text{
+      font-size: 20px;
+     }
+     .navbar{
+      padding: 10px 20px;
+     }
    }
 }

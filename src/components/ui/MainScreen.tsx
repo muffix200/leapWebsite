@@ -1,27 +1,8 @@
-import { ActionIcon, Badge, Button, Flex, Text } from "@mantine/core";
-import { IconArrowNarrowRight } from "@tabler/icons-react";
+import { Button, Flex, Text } from "@mantine/core";
+import { IconArrowRight, IconListCheck } from "@tabler/icons-react";
 export default function MainScreen() {
   return (
-    <div className="mainScreen">
-      <Badge
-        rightSection={
-          <ActionIcon>
-            <IconArrowNarrowRight />
-          </ActionIcon>
-        }
-        pl={5}
-        pr={5}
-        radius="sm"
-        variant="dot"
-        color="green"
-        size="lg"
-        mb={10}
-        sx={{
-          fontFamily: "Rubik",
-        }}
-      >
-        Bepul sinov darslariga yozilish
-      </Badge>
+    <div id="main" className="mainScreen">
       <div className="mainScreenTitleWrapper">
         <Text className="mainScreen-text">
           Ingliz tilini jaydari o'zbek tilida o'rgatamiz
@@ -31,18 +12,27 @@ export default function MainScreen() {
 
       <Flex>
         <Button
-          sx={{
-            background: "#11B86D",
-            "&:hover": {
-              backgroundColor: "#11B86D",
-              opacity: 0.8,
-            },
+          onClick={() => {
+            window.document
+              .getElementById("courses")
+              ?.scrollIntoView({ block: "center" });
           }}
-          mr={15}
+          leftIcon={<IconListCheck size={18} />}
+          variant="gradient"
         >
-          Kurs haqida
+          Kurslar
         </Button>
-        <Button>Kurslar</Button>
+
+        <Button
+          onClick={() => {
+            window.open("https://t.me/LeapSupport");
+          }}
+          variant="gradient"
+          rightIcon={<IconArrowRight size={18} />}
+          ml={15}
+        >
+          Kursga yozilish
+        </Button>
       </Flex>
     </div>
   );
