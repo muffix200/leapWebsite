@@ -1,6 +1,5 @@
 import { AspectRatio, Text } from "@mantine/core";
 import { CourseSectionCorousel } from "./CourseSectionCorousel";
-import data from "../../utils/data/course_mock_data.json";
 
 export default function CourseSection() {
   return (
@@ -18,7 +17,7 @@ export default function CourseSection() {
       </AspectRatio>
 
       <Text id="courses" className="section-text" mb={40} mt={40} weight={700}>
-        Tariflar - {data?.length} ta
+        Tariflar
       </Text>
       <CourseSectionCorousel />
     </div>

@@ -2,10 +2,12 @@ import { Carousel } from "@mantine/carousel";
 import { Box, Button, Flex, List, ThemeIcon, Text } from "@mantine/core";
 import {
   IconArrowRight,
+  IconCheck,
   IconCircleCheck,
-  IconPoint,
+  // IconPoint,
   IconSquareRoundedX,
   IconWriting,
+  IconX,
 } from "@tabler/icons-react";
 import data from "../../utils/data/course_mock_data.json";
 
@@ -13,6 +15,7 @@ export function CourseSectionCorousel() {
   return (
     <div className="corousel-wrapper">
       <Carousel
+        controlSize={40}
         loop={false}
         slideSize="33.333333%"
         slideGap="xl"
@@ -83,16 +86,16 @@ export function CourseSectionCorousel() {
                             radius="xl"
                           >
                             {item.status ? (
-                              <IconCircleCheck size="1rem" />
+                              <IconCheck size="1rem" />
                             ) : (
-                              <IconSquareRoundedX size="1rem" />
+                              <IconX size="1rem" />
                             )}
                           </ThemeIcon>
                         }
                       >
                         {item.title}
 
-                        {item.data && (
+                        {/* {item.data && (
                           <div style={{ paddingTop: "5px" }}>
                             {item.data.map((item, index) => {
                               return (
@@ -106,7 +109,7 @@ export function CourseSectionCorousel() {
                               );
                             })}
                           </div>
-                        )}
+                        )} */}
                       </List.Item>
                     );
                   })}

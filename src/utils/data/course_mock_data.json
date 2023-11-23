@@ -1,462 +1,167 @@
 [
     {
-        "name": "Individual 8",
+        "name": "SELF-STUDY",
         "data": [
             {
-                "title": "Beginner",
+                "title": "Beginner - Intermediate (video kurs)",
                 "status": true
             },
             {
-                "title": "Elementary",
+                "title": "Exclusive Content (video/audio)",
                 "status": true
             },
             {
-                "title": "Pre-Intermediate",
+                "title": "Masterclass (har oy)",
+                "status": false
+            },
+            {
+                "title": "Speaking Club (har hafta)",
+                "status": false
+            },
+            {
+                "title": "Lesson Plan",
                 "status": true
             },
             {
-                "title": "Intermediate",
+                "title": "Yopiq Chat (telegram)",
                 "status": true
             },
             {
-                "title": "Haftalik jonli darslar",
+                "title": "Electron Kutubxona",
                 "status": true
             },
             {
-                "title": "Oylik Masterclass",
+                "title": "Foydali Linklar",
                 "status": true
             },
             {
-                "title": "Speaking Club",
-                "status": true
+                "title": "Darajani aniqlash",
+                "status": false
             },
             {
-                "title": "Chat",
-                "status": true
+                "title": "O'qituvchi Nazorati",
+                "status": false
             },
             {
-                "title": "Exclusive kontent",
-                "status": true
+                "title": "Uyga vazifa + Tekshirish",
+                "status": false
             },
             {
-                "title": "Kitoblar",
-                "status": true
-            },
-            {
-                "title": "Foydali linklar",
-                "status": true
-            },
-            {
-                "title": "Darajani aniqlab berish",
-                "status": true
-            },
-            {
-                "title": "Uyga vazifa",
-                "status": true
-            },
-            {
-                "title": "Vazifalarni tekshirish",
-                "status": true
-            },
-            {
-                "title": "Unit Test",
-                "status": true
-            },
-            {
-                "title": "Unit Testlarni tekshirish",
-                "status": true
-            },
-            {
-                "title": "Mentor",
-                "status": true
-            },
-            {
-                "title": "Yakkama-yakka dars:",
-                "status": true,
-                "data": [
-                    {
-                        "title": "Darslar soni: 8",
-                        "status": true
-                    },
-                    {
-                        "title": "Haftasiga: 2 martta",
-                        "status": true
-                    },
-                    {
-                        "title": "Kuniga: 1 soat",
-                        "status": true
-                    }
-                ]
+                "title": "4 soat jonli dars (yakkama-yakka)",
+                "status": false
             }
+           
         ],
-        "price": "1.200.000 so'm/Oy"
+        "price": "250.000 so'm/Oy"
     },
     {
-        "name": "Individual 12",
+        "name": "HOMEWORKER",
         "data": [
             {
-                "title": "Beginner",
+                "title": "Beginner - Intermediate (video kurs)",
                 "status": true
             },
             {
-                "title": "Elementary",
+                "title": "Exclusive Content (video/audio)",
                 "status": true
             },
             {
-                "title": "Pre-Intermediate",
+                "title": "Masterclass (har oy)",
                 "status": true
             },
             {
-                "title": "Intermediate",
+                "title": "Speaking Club (har hafta)",
                 "status": true
             },
             {
-                "title": "Haftalik jonli darslar",
+                "title": "Lesson Plan",
                 "status": true
             },
             {
-                "title": "Oylik Masterclass",
+                "title": "Yopiq Chat (telegram)",
                 "status": true
             },
             {
-                "title": "Speaking Club",
+                "title": "Electron Kutubxona",
                 "status": true
             },
             {
-                "title": "Chat",
+                "title": "Foydali Linklar",
                 "status": true
             },
             {
-                "title": "Exclusive kontent",
+                "title": "Darajani aniqlash",
                 "status": true
             },
             {
-                "title": "Kitoblar",
+                "title": "O'qituvchi Nazorati",
                 "status": true
             },
             {
-                "title": "Foydali linklar",
+                "title": "Uyga vazifa + Tekshirish",
                 "status": true
             },
             {
-                "title": "Darajani aniqlab berish",
-                "status": true
-            },
-            {
-                "title": "Uyga vazifa",
-                "status": true
-            },
-            {
-                "title": "Vazifalarni tekshirish",
-                "status": true
-            },
-            {
-                "title": "Unit Test",
-                "status": true
-            },
-            {
-                "title": "Unit Testlarni tekshirish",
-                "status": true
-            },
-            {
-                "title": "Mentor",
-                "status": true
-            },
-            {
-                "title": "Yakkama-yakka dars:",
-                "status": true,
-                "data": [
-                    {
-                        "title": "Darslar soni: 12",
-                        "status": true
-                    },
-                    {
-                        "title": "Haftasiga: 3 martta",
-                        "status": true
-                    },
-                    {
-                        "title": "Kuniga: 1 soat",
-                        "status": true
-                    }
-                ]
+                "title": "4 soat jonli dars (yakkama-yakka)",
+                "status": false
             }
+           
         ],
-        "price": "1.560.000 so'm/Oy"
+        "price": "499.000 so'm/Oy"
     },
     {
-        "name": "Individual 18",
+        "name": "LEARNER",
         "data": [
             {
-                "title": "Beginner",
+                "title": "Beginner - Intermediate (video kurs)",
                 "status": true
             },
             {
-                "title": "Elementary",
+                "title": "Exclusive Content (video/audio)",
                 "status": true
             },
             {
-                "title": "Pre-Intermediate",
+                "title": "Masterclass (har oy)",
                 "status": true
             },
             {
-                "title": "Intermediate",
+                "title": "Speaking Club (har hafta)",
                 "status": true
             },
             {
-                "title": "Haftalik jonli darslar",
+                "title": "Lesson Plan",
                 "status": true
             },
             {
-                "title": "Oylik Masterclass",
+                "title": "Yopiq Chat (telegram)",
                 "status": true
             },
             {
-                "title": "Speaking Club",
+                "title": "Electron Kutubxona",
                 "status": true
             },
             {
-                "title": "Chat",
+                "title": "Foydali Linklar",
                 "status": true
             },
             {
-                "title": "Exclusive kontent",
+                "title": "Darajani aniqlash",
                 "status": true
             },
             {
-                "title": "Kitoblar",
+                "title": "O'qituvchi Nazorati",
                 "status": true
             },
             {
-                "title": "Foydali linklar",
+                "title": "Uyga vazifa + Tekshirish",
                 "status": true
             },
             {
-                "title": "Darajani aniqlab berish",
+                "title": "4 soat jonli dars (yakkama-yakka)",
                 "status": true
-            },
-            {
-                "title": "Uyga vazifa",
-                "status": true
-            },
-            {
-                "title": "Vazifalarni tekshirish",
-                "status": true
-            },
-            {
-                "title": "Unit Test",
-                "status": true
-            },
-            {
-                "title": "Unit Testlarni tekshirish",
-                "status": true
-            },
-            {
-                "title": "Mentor",
-                "status": true
-            },
-            {
-                "title": "Yakkama-yakka dars:",
-                "status": true,
-                "data": [
-                    {
-                        "title": "Darslar soni: 12",
-                        "status": true
-                    },
-                    {
-                        "title": "Haftasiga: 3 martta",
-                        "status": true
-                    },
-                    {
-                        "title": "Kuniga: 1.5 soat",
-                        "status": true
-                    }
-                ]
             }
+           
         ],
-        "price": "2.160.000 so'm/Oy"
-    },
-    {
-        "name": "Individual 20",
-        "data": [
-            {
-                "title": "Beginner",
-                "status": true
-            },
-            {
-                "title": "Elementary",
-                "status": true
-            },
-            {
-                "title": "Pre-Intermediate",
-                "status": true
-            },
-            {
-                "title": "Intermediate",
-                "status": true
-            },
-            {
-                "title": "Haftalik jonli darslar",
-                "status": true
-            },
-            {
-                "title": "Oylik Masterclass",
-                "status": true
-            },
-            {
-                "title": "Speaking Club",
-                "status": true
-            },
-            {
-                "title": "Chat",
-                "status": true
-            },
-            {
-                "title": "Exclusive kontent",
-                "status": true
-            },
-            {
-                "title": "Kitoblar",
-                "status": true
-            },
-            {
-                "title": "Foydali linklar",
-                "status": true
-            },
-            {
-                "title": "Darajani aniqlab berish",
-                "status": true
-            },
-            {
-                "title": "Uyga vazifa",
-                "status": true
-            },
-            {
-                "title": "Vazifalarni tekshirish",
-                "status": true
-            },
-            {
-                "title": "Unit Test",
-                "status": true
-            },
-            {
-                "title": "Unit Testlarni tekshirish",
-                "status": true
-            },
-            {
-                "title": "Mentor",
-                "status": true
-            },
-            {
-                "title": "Yakkama-yakka dars:",
-                "status": true,
-                "data": [
-                    {
-                        "title": "Darslar soni: 20",
-                        "status": true
-                    },
-                    {
-                        "title": "Haftasiga: 5 martta",
-                        "status": true
-                    },
-                    {
-                        "title": "Kuniga: 1 soat",
-                        "status": true
-                    }
-                ]
-            }
-        ],
-        "price": "2.200.000 so'm/Oy"
-    },
-    {
-        "name": "Individual 30",
-        "data": [
-            {
-                "title": "Beginner",
-                "status": true
-            },
-            {
-                "title": "Elementary",
-                "status": true
-            },
-            {
-                "title": "Pre-Intermediate",
-                "status": true
-            },
-            {
-                "title": "Intermediate",
-                "status": true
-            },
-            {
-                "title": "Haftalik jonli darslar",
-                "status": true
-            },
-            {
-                "title": "Oylik Masterclass",
-                "status": true
-            },
-            {
-                "title": "Speaking Club",
-                "status": true
-            },
-            {
-                "title": "Chat",
-                "status": true
-            },
-            {
-                "title": "Exclusive kontent",
-                "status": true
-            },
-            {
-                "title": "Kitoblar",
-                "status": true
-            },
-            {
-                "title": "Foydali linklar",
-                "status": true
-            },
-            {
-                "title": "Darajani aniqlab berish",
-                "status": true
-            },
-            {
-                "title": "Uyga vazifa",
-                "status": true
-            },
-            {
-                "title": "Vazifalarni tekshirish",
-                "status": true
-            },
-            {
-                "title": "Unit Test",
-                "status": true
-            },
-            {
-                "title": "Unit Testlarni tekshirish",
-                "status": true
-            },
-            {
-                "title": "Mentor",
-                "status": true
-            },
-            {
-                "title": "Yakkama-yakka dars:",
-                "status": true,
-                "data": [
-                    {
-                        "title": "Darslar soni: 20",
-                        "status": true
-                    },
-                    {
-                        "title": "Haftasiga: 5 martta",
-                        "status": true
-                    },
-                    {
-                        "title": "uniga: 1.5 soat",
-                        "status": true
-                    }
-                ]
-            }
-        ],
-        "price": "3.000.000 so'm/Oy"
+        "price": "599.000 so'm/Oy"
     }
 ]

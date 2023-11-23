@@ -105,7 +105,9 @@ max-width: 700px;
 .section-text{
  font-size: 30px;
 }
-
+.mantine-Carousel-control		{
+  border-color: rgba(0, 0, 0, 0.5);  
+}
 @media (max-width:850px) {
   .mobile-desktop-icons{
   display: flex;
