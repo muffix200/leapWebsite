@@ -3,9 +3,9 @@ import { Box, Button, Flex, List, ThemeIcon, Text } from "@mantine/core";
 import {
   IconArrowRight,
   IconCheck,
-  IconCircleCheck,
+  // IconCircleCheck,
   // IconPoint,
-  IconSquareRoundedX,
+  // IconSquareRoundedX,
   IconWriting,
   IconX,
 } from "@tabler/icons-react";
