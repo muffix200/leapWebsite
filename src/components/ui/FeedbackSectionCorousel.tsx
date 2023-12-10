@@ -26,7 +26,7 @@ export default function FeedbackSectionCorousel() {
         }}
         opened={showModal.visible}
         onClose={() => {
-          setShowModal({ visible: false, user: "", feedBack: "" });
+          setShowModal((prev) => ({ ...prev, visible: false }));
         }}
         title={showModal.user}
       >
