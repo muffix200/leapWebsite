@@ -11,6 +11,7 @@ import MainScreen from "./components/ui/MainScreen";
 import CourseSection from "./components/ui/CourseSection";
 import { FeedbackSection } from "./components/ui/FeedbackSection";
 import Footer from "./components/ui/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 export default function App() {
   const [colorScheme, setColorScheme] = useLocalStorage<ColorScheme>({
@@ -65,6 +66,7 @@ export default function App() {
           <CourseSection />
           <FeedbackSection />
           <Footer />
+          <SpeedInsights />
         </Paper>
       </MantineProvider>
     </ColorSchemeProvider>
