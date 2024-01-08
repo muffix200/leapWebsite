@@ -10,7 +10,7 @@ export default function CourseSection() {
       <AspectRatio ratio={16 / 9}>
         <iframe
           className="frame"
-          src="https://www.youtube.com/embed/VFdohGzgDuo?rel=0"
+          src="https://www.youtube.com/embed/ywEQD4ofT0o?si=IAnGZXxLljOJM0br?rel=0"
           title="Leap Hub nima"
           allowFullScreen
         />
